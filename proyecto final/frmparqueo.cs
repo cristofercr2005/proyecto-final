@@ -30,5 +30,20 @@ namespace proyecto_final
         private void button1_Click(object sender, EventArgs e)
         {
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            r4();
+        }
+         
+        private void r4()
+        {
+            button1.BackColor = Color.Red;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBoxOptions(Select);
+        }
     }
 }

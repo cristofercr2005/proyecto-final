@@ -52,10 +52,19 @@
     <Compile Include="frmparqueo.Designer.cs">
       <DependentUpon>frmparqueo.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmseleccionar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmseleccionar.Designer.cs">
+      <DependentUpon>frmseleccionar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmparqueo.resx">
       <DependentUpon>frmparqueo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmseleccionar.resx">
+      <DependentUpon>frmseleccionar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
